@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+
+      <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <span>Carrinho de compras</span>
+    </header>
+    <main>
+      <div class="page-title">Carrinho de compras</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produtos</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+
+            <!-- Produtos -->
+            <tbody>
+              <tr>
+                <td>
+                  <div class="carmed">
+                    <img src="Imagens do carrinho de compras/carmed-beijos.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Carmed Beijos</div>
+                      <div class="category">Gloss</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 50,00</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 50,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="basewepink">
+                    <img src="Imagens do carrinho de compras/base we pink.png" alt="" />
+                    <div class="info">
+                      <div class="name">Base WePink</div>
+                      <div class="category">Base</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 200,00</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 225,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="sérum">
+                    <img src="Imagens do carrinho de compras/max love sérum.jpg" alt="" />
+                    <div class="info">
+                      <div class="name">Sérum Max love</div>
+                      <div class="category">Sérum</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 18,00</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 268,00</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+    
+
+        <!-- Finalização da compra -->
+        <aside>
+          <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 268,00</span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+
+
+                        <!-- formas de pagamento -->
+                        <h4>Formas de pagamento</h4>
+          <div class="container-pag">
+            <div class="parte">
+                <input type="radio" name="metodo" value="pix">
+                <span class="iconify" data-icon="simple-icons:pix" style="color: #00b7a9;" data-width="20" data-height="20"></span>
+                <label for="pix">Pix</label>
+            </div>
+            <div class="parte">
+                <input type="radio" name="metodo" value="cartao">
+                <span class="iconify" data-icon="ph:credit-card-fill" style="color: #d4af37;" data-width="20" data-height="20"></span>
+                <label for="cartao">Cartão</label>
+            </div>
+            <div class="parte">
+                <input type="radio" name="metodo" value="boleto">
+                <span class="iconify" data-icon="icon-park-solid:id-card" style="color: #333;" data-width="20" data-height="20"></span>
+                <label for="boleto">Boleto</label>
+            </div>
+        </div>
+              <div>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+                
+              </div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 268,00</span>
+            </footer>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+
+
+    </main>
+  </body>
+</html>

@@ -87,9 +87,11 @@ p {
 }
 .btn {
   display: inline-block;
+  width: 250px;
+  height: 50px;
   background: #96BEE4;
   color: #fff;
-  padding: 8px 30px;
+  padding: 13px 30px;
   margin: 30px 0;
   border-radius: 30px;
   transition: background 0.5s, color 0.3s, opacity 1s;
@@ -423,3 +425,28 @@ input:focus {
   cursor: pointer;
 }
 
+.circulo {
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+    background-color: #96BEE4;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.pontos {
+    display: flex;
+}
+
+.iconify {
+    width: 100px;
+}
+
+.sgv.iconify.iconify--material-symbols {
+    width: 100px;
+}

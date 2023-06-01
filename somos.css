@@ -1,0 +1,53 @@
+
+body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.apresentação {
+
+    flex-basis: 50%;
+
+    width: 200px;
+    height: 100vh;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.quem-somos {
+    flex-basis: 50%;
+
+    width: 200px;
+    height: 100vh;
+    margin: 30px;
+    border-radius: 20px;
+}
+main {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meia-lua {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 650px;
+    height: 650px;
+    background: #96BEE4;
+    clip-path: circle(50% at 25% 80%);
+    z-index: -9;
+}
+.meninas {
+    width: 550px;
+    height: 400px;
+    right: 0;
+    bottom: 0;
+    margin-top: 27%;
+}
+.teste {
+    width: 350px;
+    height: 150px;
+    margin-top: 55%;
+}

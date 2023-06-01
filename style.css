@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 /* Geral */
@@ -38,7 +41,11 @@ nav ul li a {
   color: #555;
 }
 nav ul li a:hover{
+<<<<<<< HEAD
   background-color: #ff523b;
+=======
+  background-color: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   padding: 5px;
   border-radius: 5px;
   color: #fff;
@@ -88,7 +95,11 @@ p {
 }
 .btn {
   display: inline-block;
+<<<<<<< HEAD
   background: #ff523b;
+=======
+  background: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   color: #fff;
   padding: 8px 30px;
   margin: 30px 0;
@@ -154,7 +165,11 @@ p {
 
 }
 .rating .fa, .fa-solid, .fa-regular {
+<<<<<<< HEAD
   color: #ff523b;
+=======
+  color: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
 }
 
 /* ______________________________________________________________________________ */
@@ -170,7 +185,11 @@ p {
 
 .title::after {
   content: '';
+<<<<<<< HEAD
   background: #ff523b;
+=======
+  background: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -224,7 +243,11 @@ small {
 }
 .fa .fa-quote-left {
   font-size: 34px;
+<<<<<<< HEAD
   color: #ff523b;
+=======
+  color: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
 }
 .col-3 p {
   font-size: 12px;
@@ -237,6 +260,7 @@ small {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 /* ______________________________________________________________________________ */
 /* Marcas */
 
@@ -254,6 +278,8 @@ small {
 .col-5 img:hover{
   filter: grayscale(0%);
 }
+=======
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
 
 /* ______________________________________________________________________________ */
 /* Footer */
@@ -360,7 +386,11 @@ ul {
   margin: 100px auto 50px;
 }
 select {
+<<<<<<< HEAD
   border: 1px solid #ff523b;
+=======
+  border: 1px solid #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   padding: 5px;
 }
 select:focus {
@@ -372,7 +402,11 @@ select:focus {
 }
 .page-btn span {
   display: inline-block;
+<<<<<<< HEAD
   border: 1px solid #ff523b;
+=======
+  border: 1px solid #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   margin-left: 10px;
   width: 40px;
   height: 40px;
@@ -382,7 +416,11 @@ select:focus {
 }
 
 .page-btn span:hover {
+<<<<<<< HEAD
   background: #ff523b;
+=======
+  background: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   color: #fff;
 }
 
@@ -419,7 +457,11 @@ select:focus {
   padding-left: 10px;
   font-size: 20px;
   margin-right: 10px;
+<<<<<<< HEAD
   border: 1px solid #ff523b;
+=======
+  border: 1px solid #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
 }
 
 input:focus {
@@ -427,7 +469,11 @@ input:focus {
 }
 
 .single-product .fa {
+<<<<<<< HEAD
   color: #ff523b;
+=======
+  color: #96BEE4;
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444
   margin-left: 10px;
 }
 
@@ -441,6 +487,7 @@ input:focus {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* _________________________________________________________ */
 /* Responsividade */
 
@@ -689,3 +736,5 @@ form a {
   transform: translateX(100px);
   transition: transform 1s;
 }
+=======
+>>>>>>> 37029f5de5480581318f62f9c86e883fe7963444

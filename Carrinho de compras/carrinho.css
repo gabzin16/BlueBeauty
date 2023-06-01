@@ -18,7 +18,7 @@
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #0788eb;
+    background: #96BEE4;
     font-weight: normal;
   }
   
@@ -33,7 +33,7 @@
   }
   
   td a {
-    color: #0788eb;
+    color: #96BEE4;
     font-size: 12px;
   }
   
@@ -54,7 +54,7 @@
   }
   
   .total-price table {
-    border-top: 3px solid #0788eb;
+    border-top: 3px solid #96BEE4;
     width: 100%;
     max-width: 400px;
   }
@@ -75,7 +75,7 @@
   }
   
   .container-pag h4 {
-    color: #0788eb;
+    color: #96BEE4;
     padding-bottom: 20px;
   }
   
@@ -107,7 +107,7 @@
     padding: 30px 5px;
   }
   .container-pag h4 {
-    color: #0788eb;
+    color: #96BEE4;
     padding-bottom: 20px;
   }
   

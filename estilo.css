@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('BebasNeue-Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #D9D9D9;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ .pesquisa input {
+  padding: 6px;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+ .pesquisa {
+   margin-left: 150px;
+ }
+ .icons a {
+  margin-right: 10px;
+  padding: 0 3px;
+  color: #333;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #96BEE4;
+}
+
+ /* Parte Azul */
+
+.blocoazul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #96BEE4;
+  padding: 10px 10px;
+}
+
+.sociais {
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 35px;
+}
+
+/* Menu  */
+.menu {
+  margin-left: 20px;
+}
+.menu a:hover {
+  color:#D9D9D9;
+  text-decoration: underline;
+}
+
+.menu a {
+  margin-right: 10px;
+  padding: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: #96BEE4;
+  text-decoration: none;
+}
+
+.slider {
+  width: 95%;  /* Define a largura do contêiner do slider */
+  height: 500px; /* Define a altura do contêiner do slider */
+  overflow: hidden; /* Esconde qualquer conteúdo que exceda as dimensões do slider */
+  position: relative; /* Define o contexto de posicionamento para os elementos filhos */
+  margin: auto; /* Centraliza os slides */
+  margin-top: 20px; /* Afasta o container do topo */
+  z-index: -2;
+}
+
+.slide {
+  width: 100%; /* Define a largura do slide para ocupar todo o contêiner do slider */
+  height: 100%; /* Define a altura do slide para ocupar todo o contêiner do slider */
+  position: absolute; /* Permite posicionar os slides dentro do contêiner */
+  opacity: 0; /* Define a opacidade inicial do slide como transparente */
+  transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a propriedade de opacidade */
+}
+
+.slide img {
+  width: 100%; /* Faz com que a imagem ocupe toda a largura do slide */
+  height: 100%; /* Faz com que a imagem ocupe toda a altura do slide */
+  object-fit: cover; /* Redimensiona a imagem para preencher o espaço disponível no slide */
+}
+
+.slide.active {
+  opacity: 1; /* Define a opacidade do slide ativo como opaco (visível) */
+}
+
+.slide:nth-child(1) {
+  animation: fade 6s infinite; /* Adiciona a animação 'fade' ao primeiro slide */
+}
+
+.slide:nth-child(2) {
+  animation: fade 6s infinite 2s; /* Adiciona a animação 'fade' ao segundo slide com um atraso de 2 segundos */
+}
+
+.slide:nth-child(3) {
+  animation: fade 6s infinite 4s; /* Adiciona a animação 'fade' ao terceiro slide com um atraso de 4 segundos */
+}
+
+.slide:nth-child(4) {
+  animation: fade 6s infinite 6s; /* Adiciona a animação 'fade' ao terceiro slide com um atraso de 4 segundos */
+}
+
+.slide:nth-child(5) {
+  animation: fade 6s infinite 8s; /* Adiciona a animação 'fade' ao terceiro slide com um atraso de 4 segundos */
+}
+
+.slide:nth-child(6) {
+  animation: fade 6s infinite 10s; /* Adiciona a animação 'fade' ao terceiro slide com um atraso de 4 segundos */
+}
+
+.informações{
+  margin: 50px 0;
+
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.division {
+  flex-basis: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ff9900;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-left: 20px;
+  color: #ff9900;
+}
+p {
+  margin-left: 20px;
+}
+
+.borda {
+  border-left:2px solid #666;
+  border-right:2px solid #666;
+}

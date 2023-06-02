@@ -97,7 +97,7 @@ p {
   transition: background 0.5s, color 0.3s, opacity 1s;
 }
 .btn:hover {
-  background: #563434;
+  background: #035AAD;
 }
 
 /* ______________________________________________________________________________ */
@@ -130,6 +130,7 @@ p {
 /* Produtos */
 
 .small-container {
+  position: relative;
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
@@ -304,7 +305,7 @@ ul {
     position: absolute;
     top: 70px;
     left: 0;
-    background: #333;
+    background: #035AAD;
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5s;
@@ -439,14 +440,29 @@ input:focus {
 
 }
 
+.circulo:hover {
+  background: #035AAD;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+
 .pontos {
     display: flex;
 }
 
-.iconify {
-    width: 100px;
+
+.iconify.iconify--material-symbols {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  color: #96BEE4;
+
+}
+.iconify.iconify--material-symbols:hover {
+  color: #035AAD;
+  transition: background 0.5s, color 0.3s, opacity 1s;
 }
 
-.sgv.iconify.iconify--material-symbols {
-    width: 100px;
-}

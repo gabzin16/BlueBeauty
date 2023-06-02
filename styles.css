@@ -184,3 +184,148 @@ body {
     
     }
   }
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa button {
+  padding: 8px 10px;
+  border: none;
+  background-color: #D9D9D9;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pesquisa input {
+  
+  border-radius: 5px;
+  background-color: #D9D9D9;
+  border: none;
+  padding: 8px 85px;
+  }
+
+ .pesquisa {
+   margin-left: 120px;
+ }
+
+ /* ICONS */
+ .icons {
+  margin-left: 650px;
+ }
+ .icons a {
+  margin-right: 50px;
+  padding: 0 3px;
+  color: #333;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #96BEE4;
+}
+
+.iconify.iconify--bi{
+position: absolute;
+left: 1050px;
+top: 20px;
+display: inline-block;
+width: 30px;
+height: 30px;
+cursor: pointer;
+color: #333;
+}
+
+.iconify.iconify--codicon{
+  position: absolute;
+  left: 1220px;
+  top: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.iconify.iconify--mdi{
+  position: absolute;
+  left: 1115px;
+  top: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.iconify.iconify--teenyicons{
+  position: absolute;
+  left: 1300px;
+  top: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.iconify.iconify--bi:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.iconify.iconify--codicon:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.iconify.iconify--mdi:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.iconify.iconify--teenyicons:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+
+h4{
+  position: absolute;
+  left: 1047px;
+  top: 57px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #817e7e;
+}
+.conta h4{
+  position: absolute;
+  left: 1215px;
+  top: 50px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #817e7e;
+} 

@@ -150,6 +150,7 @@ body {
   .form button:hover, .image-bottom button:hover {
     background-color: #004AAD;
     color: #fff;
+    transition: background 0.5s, color 0.3s, opacity 1s;
   }
   .input-container i {
     margin-left: 10px;

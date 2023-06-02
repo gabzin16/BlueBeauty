@@ -87,15 +87,17 @@ p {
 }
 .btn {
   display: inline-block;
+  width: 250px;
+  height: 50px;
   background: #96BEE4;
   color: #fff;
-  padding: 8px 30px;
+  padding: 13px 30px;
   margin: 30px 0;
   border-radius: 30px;
   transition: background 0.5s, color 0.3s, opacity 1s;
 }
 .btn:hover {
-  background: #563434;
+  background: #035AAD;
 }
 
 /* ______________________________________________________________________________ */
@@ -128,6 +130,7 @@ p {
 /* Produtos */
 
 .small-container {
+  position: relative;
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
@@ -302,7 +305,7 @@ ul {
     position: absolute;
     top: 70px;
     left: 0;
-    background: #333;
+    background: #035AAD;
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5s;
@@ -421,5 +424,46 @@ input:focus {
 .small-img-col {
   flex-basis: 24%;
   cursor: pointer;
+}
+
+.circulo {
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+    background-color: #96BEE4;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+
+}
+
+.circulo:hover {
+  background: #035AAD;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+
+.pontos {
+    display: flex;
+}
+
+
+.iconify.iconify--material-symbols {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  color: #96BEE4;
+
+}
+.iconify.iconify--material-symbols:hover {
+  color: #035AAD;
+  transition: background 0.5s, color 0.3s, opacity 1s;
 }
 

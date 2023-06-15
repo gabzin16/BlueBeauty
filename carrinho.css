@@ -1,0 +1,473 @@
+/* HEADER */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #D9D9D9;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 330px;
+}
+
+.pesquisa input {
+  border-radius: 5px;
+  background-color: #D9D9D9;
+  border: none;
+  padding: 8px 85px;
+  }
+
+ .pesquisa {
+   margin-left: 120px;
+ }
+
+ /* ICONS */
+ .icons {
+  margin-left: 650px;
+ }
+ .icons a {
+  margin-right: 50px;
+  padding: 0 3px;
+  color: #333;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #96BEE4;
+}
+
+.iconify.iconify--bi{
+position: absolute;
+left: 1050px;
+top: 20px;
+display: inline-block;
+width: 30px;
+height: 30px;
+cursor: pointer;
+color: #333;
+}
+
+.iconify.iconify--codicon{
+  position: absolute;
+  left: 1220px;
+  top: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.iconify.iconify--mdi{
+  position: absolute;
+  left: 1115px;
+  top: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.iconify.iconify--teenyicons{
+  position: absolute;
+  left: 1300px;
+  top: 20px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #333;
+}
+
+.iconify.iconify--bi:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.iconify.iconify--codicon:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.iconify.iconify--mdi:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.iconify.iconify--teenyicons:hover{
+  color: #96BEE4;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+
+.lojas{
+  position: absolute;
+  left: 1047px;
+  top: 57px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #817e7e;
+}
+.conta h4{
+  position: absolute;
+  left: 1215px;
+  top: 50px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #817e7e;
+} 
+
+/* ____________________________________________________________________________-- */
+ 
+
+/* Parte Azul */
+
+.blocoazul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #96BEE4;
+    padding: 10px 10px;
+  }
+  
+  .sociais {
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 35px;
+  }
+  
+  .sociais a{
+    padding: 0 4px;
+  }
+
+  /* Menu  */
+.menu {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .menu a:hover {
+    color:#D9D9D9;
+    text-decoration: underline;
+  }
+  
+  .menu a {
+    margin-right: 35px;
+    padding: 0 30px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.0em;
+    font-weight: 550;
+    margin-top: 2%;
+  }
+  
+  .menu a:hover, select:hover {
+    color: #96BEE4;
+    text-decoration: none;
+  }
+  
+  select {
+    text-transform:uppercase;
+    border: none;
+    margin-right: 35px;
+    padding: 0 20px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.0em;
+    font-weight: 550;
+    margin-top: 2%;
+  }
+
+  /* Detalhes da compra */
+
+.compra {
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #C3DAEF;
+    display: flex;
+    align-items:  center;
+}
+
+.continuar {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #004AAD;
+    color: #fff;
+    margin-left: 3%;
+    margin-top: 40%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.botão  {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    height: 100%;
+}
+
+.entrega {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.frete {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.CEP {
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    border-color: #fff;
+}
+
+.informações  {
+    flex-basis: 30%;
+}
+
+.nomeproduto {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.preço {
+    margin-left: 110px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.quantidade {
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: #fff;
+    margin-left: 110px;
+}
+
+.quantidade2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 75px;
+}
+
+.imagem  {
+    flex-basis: 30%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.produtofoto {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Pagamento */
+
+.pagamento {
+    width: 700px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #E8E8E8;
+    margin-top: 20px;
+    margin-left: 50%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.total {
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 3px solid #111;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.desconto {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.cupom {
+    color: #035AAD;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 25px;
+}
+
+.cupom h2 {
+    padding-left: 10px;
+}
+
+.aplicar {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: gray;
+    color: #111;
+    margin-left: 3%;
+    margin-top: 10%;
+    border-color: gray;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.finalizar {
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #96BEE4;
+    color: #111;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-color: #96BEE4;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+.bandeiras {
+    margin-left: 20px;
+}
+
+.bandeiras img {
+    width: 60px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.metodos h2 {
+    font-size: medium;
+    padding-left: 20px;
+}
+
+/* Footer */
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+  }
+  
+  .footer p{
+    color: #8a8a8a;
+  }
+  .footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  .footer-col-1 {
+    flex-basis: 30%;
+  }
+  .footer-col-2 {
+    flex: 1;
+    text-align: center;
+  }
+  .footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  .app-logo {
+    margin-top: 20px;
+  }
+  .app-logo img {
+    width: 140px;
+  }
+  .footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .copyright {
+    text-align: center;
+  }
+
+  /* Responsividade */
+
+  @media screen and (max-width: 800px) {
+
+    /* Header */
+    nav ul {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background: #035AAD;
+      width: 100%;
+      overflow: hidden;
+      transition: max-height 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin-right: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    nav ul li a{
+      color: #fff;
+    }
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Geral */
+    .row {
+      text-align: center;
+    }
+    .col-2, .col-3, .col-4 {
+      flex-basis: 100%;
+    }
+  
+  }
+  

@@ -243,3 +243,11 @@ select {
 .custom-shape-divider-bottom-1686914033 .shape-fill {
   fill: #96BEE4;
 }
+
+.titulo {
+  position: relative;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}

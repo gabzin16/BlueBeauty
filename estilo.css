@@ -8,6 +8,7 @@
 }
 body {
   background-color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
 }
 
 .topo {
@@ -212,12 +213,42 @@ select {
   margin-top: 2%;
 }
 
-/* CARROSSEL  */
+/* _________________________________________________ */
+/* Slider */
 
-[data-component="slideshow"] .slide {
-  display: none;
+.slider {
+  width: 100%;
+  height: 60vh;
+  margin-top: 20px;
 }
 
-[data-component="slideshow"] .slide.active {
+/* ondas */
+
+.custom-shape-divider-bottom-1686914033 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686914033 svg {
+  position: relative;
   display: block;
+  width: calc(122% + 1.3px);
+  height: 170px;
+}
+
+.custom-shape-divider-bottom-1686914033 .shape-fill {
+  fill: #96BEE4;
+}
+
+.titulo {
+  position: relative;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }

@@ -222,7 +222,33 @@ select {
   margin-top: 20px;
 }
 
-/* ondas */
+/* NOVIDADES*/
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.division2 {
+  flex-basis: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+
+.content {
+  font-weight: bold;
+}
+
+/* ondas
 
 .custom-shape-divider-bottom-1686914033 {
   position: absolute;
@@ -251,4 +277,4 @@ select {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-}
+} */

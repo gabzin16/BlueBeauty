@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Beauty</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+</head>
+
+<!-- Header -->
+
+<body>
+
+    <div class="header" style="background: radial-gradient(#1cacf5, #fff)">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/LOGO.png" alt="logo" width="125px" /></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <a href="pagamentos.html"><img src="images/cart.png" alt="" width="30px" height="30px" /></a>
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagamento do produto detalhado -->
+
+    <div class="small-container cart-page">
+
+        <table>
+
+            <tr>
+                <th>Produtos</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <!-- 1° Produto -->
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="carmed-beijos.jpg">
+                        <div>
+                            <p>Carmed Fini Beijos</p>
+                            <small>Preço: R$20,00</small>
+                            <br>
+                            <a href="">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td><R120></R120>20,00</td>
+            </tr>
+
+            <!-- 2° Produto -->
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="base we pink.png">
+                        <div>
+                            <p>Base WePink</p>
+                            <small>Preço: R$200,00</small>
+                            <br>
+                            <a href="">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$200,00</td>
+            </tr>
+
+            <!-- 3° Produto -->
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="max love sérum.jpg">
+                        <div>
+                            <p>Sérum Max Love</p>
+                            <small>Preço: R$18,98</small>
+                            <br>
+                            <a href="">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$18,98</td>
+            </tr>
+        </table>
+
+        <!-- Métodos de pagaento e Subtotais -->
+
+        <div class="total-price">
+
+            <!-- Métodos de pagamento -->
+
+            <div class="container-pag">
+                <h4>Formar de pagamento</h4>
+                <div class="parte">
+                    <input type="radio" name="metodo" value="pix">
+                    <span class="iconify" data-icon="simple-icons:pix" style="color: #00b7a9;" data-width="36" data-height="36"></span>
+                    <label for="pix">Pix</label>
+                </div>
+                <div class="parte">
+                    <input type="radio" name="metodo" value="cartao">
+                    <span class="iconify" data-icon="ph:credit-card-fill" style="color: #d4af37;" data-width="36" data-height="36"></span>
+                    <label for="cartao">Cartão</label>
+                </div>
+                <div class="parte">
+                    <input type="radio" name="metodo" value="boleto">
+                    <span class="iconify" data-icon="icon-park-solid:id-card" style="color: #333;" data-width="36" data-height="36"></span>
+                    <label for="boleto">Boleto</label>
+                </div>
+            </div>
+
+            <!-- Subtotais -->
+
+            <table>
+
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R$238,98</td>
+                </tr>
+
+                <tr>
+                    <td>Impostos</td>
+                    <td>R$50,00</td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td>R$288,98</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Use nosso App</h3>
+                    <p>Baixe o aplicativo para celular Android e Ios</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Nosso propósito é tornar o prazer e os benefícios do esporte acessíveis a todos.</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Siga-nos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        <p class="copyright">Copyright 2023 - Blue Beauty</p>
+        </div>
+    </div>
+
+    <!-- JS para toggle menu -->
+
+    <script src="menu.js"></script>
+
+</body>
+</html>

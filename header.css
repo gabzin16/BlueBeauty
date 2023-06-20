@@ -27,17 +27,19 @@ header {
 
 .search {
     width: 30%;
-    background-color:#fff;
+    height: 35px;
+    background-color: #d9d9d9;
     display: flex;
     align-items: center;
-    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 .search input[type="text"] {
-    width: 80%;
+    background-color: #d9d9d9;
+    width: 100%;
     height: 30px;
     border: none;
-    background-color: #d9d9d9;
     color: #004AAD;
     font-weight: bolder;
     padding: 5px;
@@ -49,9 +51,9 @@ header {
 .lupa {
     background-color: #d9d9d9;
     height: 30px;
-    margin-top: 6px;
+    margin-top: 4px;
     padding-right: 5px;
-    color: #A49393;
+    color: #AEA3A3;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -81,7 +83,7 @@ header {
     padding: 5px 0;
 }
 .texto {
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 .linkfig{
@@ -143,7 +145,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
-font-size: 22px;
+font-size: 20px;
 font-weight: bolder;
 text-align: center; /* Adicionado */
 }
@@ -168,7 +170,7 @@ color: #004AAD;
         height: auto;
     }
     .texto {
-    font-size: 16px;
+    font-size: 14px;
     }
     .menu {
         width: 100%;
@@ -186,6 +188,14 @@ color: #004AAD;
         height: 50px;
         flex-wrap: wrap;
         margin-top: 10px;
+    }
+
+    /* Menu */
+    .titulos {
+        font-size: 18px;
+    }
+    .titulos a {
+        padding: 10px;
     }
     
 }

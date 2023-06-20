@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 90px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a img {
+    width: 70px;
+    height: 70px;
+}
+
+.search {
+    width: 30%;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.search input[type="text"] {
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: #d9d9d9;
+    color: #004AAD;
+    font-weight: bolder;
+    padding: 5px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none; /* Remover a linha de foco */
+}
+.lupa {
+    background-color: #d9d9d9;
+    height: 30px;
+    margin-top: 6px;
+    padding-right: 5px;
+    color: #A49393;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.lupa:hover {
+    color: #004AAD;
+}
+  
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    margin: 0 30px;
+    color: #AEA3A3;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.menu a:hover {
+    color: #004AAD;
+}
+
+.menu a span {
+    padding: 5px 0;
+}
+.texto {
+    font-size: 1.2vw;
+}
+
+.linkfig{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.linkfig span {
+    margin-top: 5px;
+}
+
+.linkfigso{
+    padding-bottom: 35px;
+}
+
+/* __________________________________________________________________________ */
+/* Redes sociais */
+
+   .social-bar {
+    height: 40px;
+    background-color: #96BEE4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-bar a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-bar a span {
+    margin-left: 5px;
+}
+
+.social-bar a .iconify {
+    width: 30px;
+    height: 30px;
+}
+.social-bar a .iconify:hover {
+    color: #004AAD;
+}
+
+/* ________________________________________ */
+/* Menu */
+
+.titulos {
+width: 100%;
+height: 40px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+font-size: 22px;
+font-weight: bolder;
+text-align: center; /* Adicionado */
+}
+.titulos a {
+color: #000;
+text-decoration: none;
+transition: color 0.3s;
+padding: 10px 20px;
+}
+.titulos a:hover {
+color: #004AAD;
+}
+
+/* __________________________________________________________________________ */
+/* Responsividade */
+
+@media screen and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .texto {
+    font-size: 16px;
+    }
+    .menu {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .menu a {
+        margin: 0 15px;
+    }
+    .search {
+    width: 40%;
+    }
+
+    /* Redes sociais */
+    .social-bar {
+        height: 50px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+}

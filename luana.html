@@ -5,45 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Beauty</title>
-    <link rel="stylesheet" href="estilo.css">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="assets/logo BB.png" type="image/x-icon">
     
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="header.css">
+
+    <!-- Link para Iconify -->
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
 </head>
 <body>
-   
-<!-- Header -->
-    <header class='topo'> 
-       
+      <!-- Cabeçalho -->
+      <header>
+
+        <!-- Logo -->
         <div class="logo">
-            <img src="imagens/LOGO.png" alt="Logo" width="65px">
-          </div>
-       
-       <div class="pesquisa">
-            <input placeholder='Pesquisar...'/>
-           <button><img src="imagens/search.png" alt="pesquisa" width="10px"></button>
+            <a href="#"><img src="assets/logo_header.png" alt="Logo"></a>
         </div>
 
-        <div class="icons">
-            <a href="#"><span class="iconify" data-icon="bi:shop" ></span></a>
-            <a href="#"><span class="iconify" data-icon="mdi:heart-outline"></span></i></a>
-            <a href="#"><span class="iconify" data-icon="codicon:account"></span></i></a>
-            <a href="#"><span class="iconify" data-icon="teenyicons:bag-outline"></span></a>
-                <a href="#">
-                    <h4>LOJAS</h4>
-                </a>
-                <div class="conta">
-                    <a href="#">
-                        <h4>MINHA CONTA</h4>
-                    </a>
-                </div>
-            
+        <!-- Barra de Pesquisa -->
+        <div class="search">
+            <input type="text" placeholder="Pesquisar">
+            <a href="">
+                <span class="iconify lupa" data-icon="octicon:search-16" data-width="25"></span>
+            </a>
+        </div>
+
+        <!-- Menu -->
+        <div class="menu">
+
+            <a href="#" class="linkfig">
+                <span class="iconify" data-icon="solar:shop-2-bold" data-width="32"></span>
+                <span class="texto">LOJAS E SERVIÇOS</span>
+            </a>
+
+            <a href="#" class="linkfigso"><span class="iconify" data-icon="mdi:heart-outline" data-width="32"></span></a>
+
+            <a href="#" class="linkfig">
+                <span class="iconify" data-icon="mingcute:user-4-fill" data-width="32"></span>
+                <span class="texto">MINHA CONTA</span>
+            </a>
+
+            <a href="#" class="linkfigso"><span class="iconify" data-icon="grommet-icons:shop" data-width="32"></span></a>
 
         </div>
+
     </header>
-        
-        <!--Bloco azul  -->
+
+    <!-- _______________________________________________________________________________ -->
+    <!-- Redes Sociais -->
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com" target="_blank">
+            <span class="iconify" data-icon="ic:baseline-facebook"></span>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <span class="iconify" data-icon="mdi:instagram"></span>
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <span class="iconify" data-icon="brandico:twitter-bird"></span>
+        </a>
+    </div>
+
+    <!-- _______________________________________________________________________________ -->
+    <!-- Menu de Navegação -->
+
+    <div class="titulos">
+        <a href="#">MAQUIAGEM</a>
+        <a href="#">MARCAS</a>
+        <a href="#">SKINCARE</a>
+        <a href="#">PERFUME</a>
+        <a href="#">CABELOS</a>
+        <a href="#">QUEM SOMOS?</a>
+    </div>
+
     
 
     <!-- ______________________ -->
@@ -84,7 +122,6 @@
 
     <!-- Footer -->
 
-   
     
 </div>
 

@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* ______________________________________________________________________________ */
+/* Produtos */
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
+.col-4 p {
+  font-size: 14px;
+
+}
+.rating .fa, .fa-solid, .fa-regular {
+  color: #035AAD;
+}
+
+
+
+/* ______________________________________________________________________________ */
+/* Produto detalhado (Página Produtos-detalhes) */
+
+.single-product {
+  margin-top: 50px;
+}
+.single-product .col-2 img{
+  padding: 0;
+}
+.single-product .col-2 {
+  padding: 20px;
+}
+.single-product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #035AAD;
+}
+input:focus {
+  outline: none;
+}
+.single-product .fa {
+  color: #035AAD;
+  margin-left: 10px;
+}
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+/* ______________________________________________________________________________ */
+/* Pagamento do Produto detalhado (Página Pagamentos) */
+
+.cart-page {
+  margin: 80px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #035AAD;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: #035AAD;
+  font-size: 12px;
+}
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid #035AAD;
+  width: 100%;
+  max-width: 400px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
+
+/* ______________________________________________________________________________ */
+/* Métodos de pagamento e Subtotais (Página Pagamentos) */
+
+.container-pag {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-left: 1px;
+  padding: 30px 5px;
+
+}
+.container-pag h4 {
+  color: #035AAD;
+  padding-bottom: 20px;
+
+}
+
+.parte {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.parte input[type="radio"] {
+  margin-right: 10px;
+}
+
+.parte label {
+  margin-right: 20px;
+  text-align: left; /* Alinha o texto à direita */
+}
+
+.iconify {
+padding: 0 15px;
+width: 80px;
+}
+
+/* ______________________________________________________________________________ */
+/* Responsividade */
+
+
+
+@media screen and (max-width: 600px) {
+  /* Geral */
+  .row {
+    text-align: center;
+  }
+
+  /* Pagamentos */
+  .cart-info p {
+    display: none;
+  }
+
+}

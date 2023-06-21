@@ -251,6 +251,12 @@ ul {
     cursor: pointer;
   }
 
+  /* Responsividade nas marcas */
+  .brand-group {
+    flex-direction: column;
+  }
+
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -394,3 +400,57 @@ input:focus {
   transition: background 0.5s, color 0.3s, opacity 1s;
 }
 
+/* CSS página Marcas */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+width: 35%;
+border: 30px 30px;
+}
+
+.brand-group {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.brand-group img {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.qdr img {
+  height: 70px;
+  margin-top: 30px;
+}
+.qdr {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  margin: 90px 30px 1px 30px;
+  width: 170px;
+  height: 150px;
+  background: #96BEE4;
+  color: #fff;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: background 0.5s, color 0.3s, opacity 1s;
+}
+.qdr:hover {
+  background: #035AAD;
+}
+
+.ver {
+display: flex;
+justify-content: center;
+/* width: 140px; */
+}
+
+.ver a {
+text-align: center;
+}

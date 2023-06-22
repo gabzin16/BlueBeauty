@@ -14,13 +14,6 @@ body {
 /* ______________________________________________________________________________ */
 /* Header */
 
-.coração {
-  color: #035AAD;
-  font-size: 20px;
-  margin-left: 20px;
-  padding-top: 8px;
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -101,7 +94,7 @@ p {
   padding: 13px 30px;
   margin: 30px 0;
   border-radius: 30px;
-  transition: background 0.5s, color 0.3s, opacity 1s;  
+  transition: background 0.5s, color 0.3s, opacity 1s;
 }
 .btn:hover {
   background: #035AAD;
@@ -165,7 +158,6 @@ p {
 .rating .fa, .fa-solid, .fa-regular {
   color: #96BEE4;
 }
-
 
 /* ______________________________________________________________________________ */
 /* Footer */
@@ -251,12 +243,6 @@ ul {
     cursor: pointer;
   }
 
-  /* Responsividade nas marcas */
-  .brand-group {
-    flex-direction: column;
-  }
-
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -304,153 +290,66 @@ select:focus {
   color: #fff;
 }
 
-/* __________________________________________________________________ */
-/* Produto detalhado (Página Produtos-detalhes) */
-
-.single-product {
-  margin-top: 50px;
+.iconify {
+    width: 100px;
 }
 
-.single-product .col-2 img {
-  padding: 0;
+.iconify:hover {
+    color: #035AAD;
+   transition: background 0.5s, color 0.3s, opacity 1s;
+}
+ 
+/* ______________________________________________________________________________ */
+/* Footer */
+
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
 }
 
-.single-product .col-2 {
-  padding: 20px;
+.footer p{
+  color: #8a8a8a;
 }
-
-.single-product h4 {
-  margin: 20px 0;
-  font-size: 22px;
-  font-weight: bold;
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
 }
-
-.single-product select {
-  display: block;
-  padding: 10px;
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1 {
+  flex-basis: 30%;
+}
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.app-logo {
   margin-top: 20px;
 }
-
-.single-product input {
-  width: 50px;
-  height: 40px;
-  padding-left: 10px;
-  font-size: 20px;
-  margin-right: 10px;
-  border: 1px solid #96BEE4;
+.app-logo img {
+  width: 140px;
 }
-
-input:focus {
-  outline: none;
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
 }
-
-.single-product .fa {
-  color: #96BEE4;
-  margin-left: 10px;
-}
-
-.small-img-row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.small-img-col {
-  flex-basis: 24%;
-  cursor: pointer;
-}
-
-.circulo {
-    width: 130px;
-    height: 130px;
-    border-radius: 75px;
-    background-color: #96BEE4;
-    margin-left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    text-align: center;
-    color: white;
-
-}
-
-.circulo:hover {
-  background: #035AAD;
-  transition: background 0.5s, color 0.3s, opacity 1s;
-}
-
-.pontos {
-    display: flex;
-}
-
-
-.iconify.iconify--material-symbols {
-  position: absolute;
-  left: 80px;
-  top: 100px;
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-  color: #96BEE4;
-
-}
-.iconify.iconify--material-symbols:hover {
-  color: #035AAD;
-  transition: background 0.5s, color 0.3s, opacity 1s;
-}
-
-/* CSS página Marcas */
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.box {
-width: 35%;
-border: 30px 30px;
-}
-
-.brand-group {
-  display: flex;
-  justify-content: center;
-  
-}
-
-.brand-group img {
-  margin: 5px;
-  width: 100px;
-  height: 100px;
-}
-
-.qdr img {
-  height: 70px;
-  margin-top: 30px;
-}
-.qdr {
-  /* display: inline-block; */
-  display: flex;
-  justify-content: center;
-  margin: 90px 30px 1px 30px;
-  width: 170px;
-  height: 150px;
-  background: #96BEE4;
-  color: #fff;
-  padding: 13px 30px;
-  border-radius: 30px;
-  transition: background 0.5s, color 0.3s, opacity 1s;
-}
-.qdr:hover {
-  background: #035AAD;
-}
-
-.ver {
-display: flex;
-justify-content: center;
-/* width: 140px; */
-}
-
-.ver a {
-text-align: center;
+.copyright {
+  text-align: center;
 }

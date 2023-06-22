@@ -6,34 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Beauty</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
 
-    <link rel="shortcut icon" href="imagens/LOGO.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo BB.png" type="image/x-icon">
 
-    <script src="https://kit.fontawesome.com/23655c98f8.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </head>
 <body>
-    <div class="header" style="background: #fff;">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <img src="imagens/LOGO.png" alt="logo" width="125px">
-                </div>
-                <nav>
-                    <ul id="MenuItems">
-                            <li><a href="index.html">Maguiagem</a></li>
-                            <li><a href="produtos.html">Marcas</a></li>
-                            <li><a href="sobre.html">Perfume</a></li>
-                            <li><a href="login.html">Skin Care</a></li>
-                            <li><a href="cabelos.html">Cabelos</a></li>
-                            <li><a href="sobre.html">Quem Somos?</a></li>
-                    </ul>
-                </nav>
-                <a href="pagamentos.html"><img src="Vector.png" alt="" width="30px" height="30px"></a>
-                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        <!-- Cabeçalho -->
+        <header>
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo_header.png" alt="Logo"></a>
             </div>
+    
+            <!-- Barra de Pesquisa -->
+            <div class="search">
+                <input type="text" placeholder="Pesquisar">
+                <a href="">
+                    <span class="iconify lupa" data-icon="octicon:search-16" data-width="25"></span>
+                </a>
+            </div>
+    
+            <!-- Menu -->
+            <div class="menu">
+    
+                <a href="#" class="linkfig">
+                    <span class="iconify" data-icon="solar:shop-2-bold" data-width="32"></span>
+                    <span class="texto">LOJAS E SERVIÇOS</span>
+                </a>
+    
+                <a href="favs.html" class="linkfigso"><span class="iconify" data-icon="mdi:heart-outline" data-width="32"></span></a>
+    
+                <a href="conta.html" class="linkfig">
+                    <span class="iconify" data-icon="mingcute:user-4-fill" data-width="32"></span>
+                    <span class="texto">MINHA CONTA</span>
+                </a>
+    
+                <a href="carrinho_BB.html" class="linkfigso"><span class="iconify" data-icon="grommet-icons:shop" data-width="32"></span></a>
+    
+            </div>
+    
+        </header>
+    
+        <!-- _______________________________________________________________________________ -->
+        <!-- Redes Sociais -->
+    
+        <div class="social-bar">
+            <a href="https://www.facebook.com" target="_blank">
+                <span class="iconify" data-icon="ic:baseline-facebook"></span>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <span class="iconify" data-icon="mdi:instagram"></span>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <span class="iconify" data-icon="brandico:twitter-bird"></span>
+            </a>
+        </div>
+    
+        <!-- _______________________________________________________________________________ -->
+        <!-- Menu de Navegação -->
+    
+        <div class="titulos">
+            <a href="produtos.html">MAQUIAGEM</a>
+            <a href="marcas.html">MARCAS</a>
+            <a href="#">SKINCARE</a>
+            <a href="#">PERFUME</a>
+            <a href="#">CABELOS</a>
+            <a href="#">QUEM SOMOS?</a>
         </div>
 
 <div class="small-container single-product">
+    <a href="favs.html"><span class="iconify" data-icon="material-symbols:heart-plus"></span></a>
     <div class="row">
         <div class="col-2">
             <img src="imagens/2.webp" width="100%" id="ProductImg">
@@ -55,13 +100,16 @@
 
         </div>
         <div class="col-2">
-            <p>Home / FRAN BY FRANCINY EHLKE</p>
+            <p>Home | FRAN BY FRANCINY EHLKE</p>
             <h1>GLOSS DE VOLUME CHOCOCHILLI</h1>
             <h4>R$50,00
             <p>ou 2x de R$25,00</p>
             </h4>
             <input type="number" value="1">
-            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <div class="pontos">
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <div class="circulo">+50 PONTOS NO BEAUTY CLUB</div>
+            </div>
             <h3>Detalhes do produto <i class="fa fa-indent"></i></h3>
             <br>
             <p>

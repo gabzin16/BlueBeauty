@@ -14,11 +14,16 @@
     width: 200px;
     height: 50px;
     border-radius: 30px;
-    background-color: #004AAD;
-    color: #fff;
+    background: #004AAD;
+    color: #ffffff;
     margin-left: 3%;
     margin-top: 40%;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.continuar:hover {
+  color: #fff;
+  background-color: #034396;
 }
 
 .botão  {
@@ -137,6 +142,11 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.aplicar:hover{
+  color: #000;
+  background-color: rgb(110, 109, 109);
+}
+
 .finalizar {
     width: 300px;
     height: 60px;
@@ -148,6 +158,11 @@
     border-color: #96BEE4;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
+}
+
+.finalizar:hover{
+  color: #111;
+  background-color: #8bafd0;
 }
 .bandeiras {
     margin-left: 20px;

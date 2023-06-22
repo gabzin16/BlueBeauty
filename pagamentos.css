@@ -123,7 +123,7 @@ th {
   text-align: left;
   padding: 5px;
   color: #fff;
-  background: #C3DAEF;
+  background: #96BEE4;
   font-weight: normal;
 }
 td {
@@ -170,7 +170,7 @@ th:last-child {
 
 }
 .container-pag h4 {
-  color: #95cbfe;
+  color: #1c62a2;
   padding-bottom: 20px;
 
 }
@@ -196,13 +196,13 @@ width: 80px;
 }
 
 .btn {
-  display: inline-block;
+  display: center;
   width: 250px;
   height: 50px;
-  background: #C3DAEF;
+  background: #96BEE4;
   color: #fff;
-  padding: 13px 30px;
-  margin: 30px 0;
+  padding: 13px 45px;
+  margin: 30px 350px;
   border-radius: 30px;
   transition: background 0.5s, color 0.3s, opacity 1s;  
 }
